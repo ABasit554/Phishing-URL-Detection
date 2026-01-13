@@ -1,44 +1,42 @@
-# 🛡️ Phishing URL Detection
+## 🛡️ Phishing URL Detection
 
-End-to-end system that detects malicious URLs such as phishing, malware, and defacement attacks using supervised machine learning.
-
+End-to-end system for detecting malicious URLs such as **phishing**, **malware**, and **defacement** using supervised machine learning.
 
 ---
 
-## 📊 Dataset
+### 📊 Dataset
 
 This project uses the **Malicious URLs Dataset** from Kaggle.
 
-Dataset link:  
-https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset
+- **Source**: [Malicious URLs Dataset – Kaggle](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset)
 
+---
 
-🚀 Project Overview
-Phishing attacks are one of the most common cybersecurity threats today.
-This project aims to automatically classify URLs into multiple categories by learning patterns directly from URL strings.
+### 🚀 Project Overview
 
-The system focuses on:
+Phishing attacks are among the most common cybersecurity threats today.  
+This project automatically classifies URLs into multiple categories by learning patterns directly from the URL strings.
 
-Data preprocessing
+- **Focus areas**:
+  - **Data preprocessing**
+  - **Feature engineering from URLs**
+  - **Supervised model training**
+  - **Evaluation and visualization of results**
 
-Feature engineering from URLs
+---
 
-Supervised model training
+### 🔎 URL Categories
 
-Evaluation and visualization of results
+- **Benign**
+- **Phishing**
+- **Malware**
+- **Defacement**
 
-🔎 URL Categories
-Benign
+---
 
-Phishing
+### 🧠 Pipeline Flow
 
-Malware
-
-Defacement
-
-🧠 Pipeline Flow
-text
-Copy code
+```text
 Dataset
    ↓
 Preprocessing
@@ -48,3 +46,4 @@ Feature Engineering
 Model Training
    ↓
 Evaluation & Visualization
+```
