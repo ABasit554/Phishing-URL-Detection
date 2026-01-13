@@ -1,0 +1,26 @@
+# env files
+.env
+.env.*
+!.env.example
+
+# secrets / keys
+*.pem
+*.key
+id_rsa*
+credentials*.json
+
+# logs
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# dependencies/build (examples)
+node_modules/
+dist/
+build/
+__pycache__/
+.venv/
